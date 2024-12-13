@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>маркетплейс</title>
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  
+</head>
+<body>
+    <header class="header container">
+        <!-- Top Header -->
+        <div class="header-top">
+          <div class="logo">
+            <img src="./assets/logo.svg" alt="Convex Logo" class="logo-img"> <!-- Logotip -->
+            <div class="contact-info">
+              <p>Бесплатный звонок</p>
+              <a href="tel:88000805011">8 800 080 5011</a>
+            </div>
+          </div>
+          <label class="menu-btn" for="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </label>
+          <div class="search-bar">
+            <input type="text" placeholder="Поиск товаров">
+          </div>
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>ЕЦИ-166/4</span>
+            <p> Нур-Султан</p>
+          </div>
+          <button class="login-btn">Войти</button>
+        </div>
+        
+    
+        <!-- Navigation Bar -->
+        <nav class="nav-bar">
+          <div class="menu">
+            <div>Продукты</div>
+            <div>Еда быстрого приготовления</div>
+            <div>Консервы</div>
+            <div>Напитки</div>
+            <div>Бытовая химия</div>
+            <div>Уход за собой</div>
+            <div class="div active">Еще</div>
+          </div>
+    
+          <!-- Savat ikonkasi -->
+          <div class="cart">
+            <i class="fas fa-shopping-cart icon"></i>
+            <span>Корзина</span>
+            <span class="count">12</span>
+          </div>
+        </nav>
+      </header>
+
+      <input type="checkbox" id="menu-toggle">
+<div class="side-menu">
+  <div class="close-btn">
+    <label for="menu-toggle"><i class="fas fa-times"></i></label>
+  </div>
+  <ul>
+    <li><a href="#">О Компании</a></li>
+    <li><a href="#">Вопрос-ответ</a></li>
+    <li><a href="#">Новости</a></li>
+    <li><a href="#">Контакты</a></li>
+    <li><a href="#">Пополнение баланса</a></li>
+  </ul>
+  <div class="contact-info1">
+    <p>Бесплатно по Казахстану</p>
+    <p><strong>8 800 080 50 11</strong></p>
+    <p><strong>8 727 225 50 11</strong></p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</div>
+
+<div class="swiper mySwiper container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="content image">
+            <div class="img-box">
+            <h2>Всегда свежие<br />молочные продукты</h2>
+            <p>Только качественные товары, за <br>которыми мы всегда следим</p>
+            <a href="#" class="btn"> Подробнее</a></div><div>
+            <img src="./assets/convex_js.png" alt="Green Truck" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="content image">
+            <div class="img-box">
+            <h2>Свежие овощи и фрукты</h2>
+            <p>Мы заботимся о качестве наших <br>продуктов каждый день</p>
+            <a href="#" class="btn"> Подробнее</a></div><div>
+            <img src="https://www.gazeta.uz/media/img/2024/09/diQMNN17261243177373_b.jpg" alt="Fresh Vegetables" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="content image">
+            <div class="img-box">
+            <h2>Лучшие мясные продукты</h2>
+            <p>Качественные мясные продукты <br>для вашего стола</p>
+            <a href="#" class="btn"> Подробнее</a></div><div>
+            <img src="https://www.retail.ru/upload/medialibrary/b03/lnaiodey6ln21hqjp1twlrb72fy1jjj9/1_shutterstock_129624017.jpg" alt="Meat Products" /></div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+<div class="promo-slider main-wrap container">
+    <div class="promo-track">
+        <div class="promo-slide first">
+            <div class="promo-item">
+                <div class="promo-content promo-image">
+                    <div class="promo-text">
+                        <div>
+                            <img src="./assets/plov.png" alt="Горячие блюда" />
+                        </div>
+                       <div class="promo-box"> <h2>Горячие блюда</h2>
+                        <p>Вкуснейшие блюда из 4 ресторанов</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="promo-slide second">
+            <div class="promo-item">
+                <div class="promo-content promo-image">
+                    <div class="promo-text">
+                        <div>
+                            <img src="./assets/mm.png" alt="Новинки" />
+                        </div>
+                        <div class="promo-box second">
+                        <h2>Новинки</h2>
+                        <p>Новые позиции</p>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+        <div class="promo-slide third">
+            <div class="promo-item">
+                <div class="promo-content promo-image">
+                    <div class="promo-text">
+                        <div>
+                            <img src="./assets/disc.png" alt="Акции" />
+                        </div>
+                        <div class="promo-box">
+                        <h2>Акции</h2>
+                        <p>Лучшие цены</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="promo-slide four">
+            <div class="promo-item">
+                <div class="promo-content promo-image">
+                    <div class="promo-text">
+                        <div>
+                            <img src="./assets/food.png" alt="Комплекты" />
+                        </div>
+                        <div class="promo-box">
+                        <h2>Комплекты</h2>
+                        <p>Все в одном</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="promo-next"></div>
+    <div class="promo-prev"></div>
+</div>
+<div class="promo-section container">
+    <h2 class="promo-title">Акции <a href="#" class="view-all">Смотреть все</a></h2>
+    <div class="promo-slider">
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="old-price">28 030 тг.</p>
+            <p class="new-price">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="old-price">28 030 тг.</p>
+            <p class="new-price">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="old-price">28 030 тг.</p>
+            <p class="new-price">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="old-price">28 030 тг.</p>
+            <p class="new-price">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="old-price">28 030 тг.</p>
+            <p class="new-price">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="old-price">28 030 тг.</p>
+            <p class="new-price">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+    </div>
+</div>
+
+<div class="promo-section container">
+    <h2 class="promo-title">Новинки <a href="#" class="view-all">Смотреть все</a></h2>
+    <div class="promo-slider">
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="new-price new" >24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="new-price new">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="new-price new">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="new-price new">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="new-price new">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+        <div class="promo-card">
+            <img src="./assets/tushuonka.png" alt="Консервированный продукт">
+            <h3>Конина тушеная Улан, есть возможность в 2 строки</h3>
+            <p class="availability">В наличии: <span class="in-stock">11 шт.</span></p>
+            <p class="weight">Вес: 130гр</p>
+            <p class="new-price new">24 320 тг.</p>
+            <button class="add-to-cart">В корзину</button>
+        </div>
+    </div>
+</div>
+<footer class="site-footer container">
+    <div class="footer-top">
+        <div class="footer-links">
+            <a href="#">О компании</a>
+            <a href="#">Вопрос-Ответ</a>
+            <a href="#">Новости</a>
+            <a href="#">Контакты</a>
+            <a href="#">Пополнение баланса</a>
+        </div>
+        <div class="footer-contacts">
+            <p>Бесплатно по Казахстану</p>
+            <p><strong>8 800 080 50 11</strong></p>
+            <p><strong>8 727 225 50 11</strong></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>2019 © Convex</p>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Публичная оферта</a>
+        <a href="#">Условия возврата</a>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footer-age">
+            <p>+18</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         loop: true,
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+         breakpoints: {
+           640: {
+             slidesPerView: 1,
+             spaceBetween: 20,
+           },
+           768: {
+             slidesPerView: 1,
+             spaceBetween: 20,
+           },
+           1024: {
+             slidesPerView: 1,
+             spaceBetween: 20,
+           },
+         },
+       });
+     </script>
+    <script>
+        var swiper = new Swiper(".promo-slider .main-wrap", {
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".promo-next",
+        prevEl: ".promo-prev",
+    },
+    pagination: {
+        el: ".promo-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+    },
+});
+
+    </script>
+</body>
+</html>
